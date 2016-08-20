@@ -1,0 +1,6 @@
+- name: Configure webserver with nginx
+  hosts: webservers
+  become_user: sudo
+  tasks: 
+   - name: install nginx
+     apt: name=nginx update_cache=yes
