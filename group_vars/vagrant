@@ -1,8 +1,7 @@
-db_primary_host=vagrant3
-db_primary_port=5432
-db_primary_port=5432
-db_name=widget_vagrant
-db_user=widgetuser
-db_password=password
-rabbitmq_host=vagrant3
-rabbitmq_port=5672
+db_primary_host: vagrant3
+db_primary_port: 5432
+db_name: widget_vagrant
+db_user: widgetuser
+db_password: password
+rabbitmq_host: vagrant3
+rabbitmq_port: 5672
